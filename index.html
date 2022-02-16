@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trello</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <div class="app">
+        <div class="boards">
+            <div class="boards_item">
+                <span contenteditable="true" class="title">Name introduction</span>
+                <div class="list">
+                    <div class="list_item" draggable="true">Start Card</div>
+                </div>
+
+                <div class="form">
+                    <textarea class="textarea" placeholder="Name introduction for Card"></textarea>
+
+                    <div class="buttons">
+                        <button class="add_item-btn">Add Card</button>
+                        <button class="cancel_item-btn">Cencel</button>
+                    </div>
+                </div>
+
+                <div class="add_btn"> <span> + </span> Add Card </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/main.js"></script>
+</body>
+</html>
